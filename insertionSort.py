@@ -8,7 +8,7 @@ def insertionSort(arry):
         while i >= 0 and key < arry[i]:
             arry[i + 1] = arry[i] # Move one postion for array values to right  
             i -= 1 # Sort the array sequence for arry[1...i-1]
-        arry[i + 1] = key # Sort key position in descending order i.e. A = [aa' <= ab' <= ac' .... <= an']
+        arry[i + 1] = key # Sort key position in descending order i.e. A = [aa', <= ab', <= ac', ...., <= an']
 
 # Given Array
 arry = [23, 45, 90, 12, 6, 3, 11]
